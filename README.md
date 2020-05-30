@@ -9,19 +9,20 @@ i working with different technology like php(current work) ,python ,JavaScript,r
 ## Installation & updates
 
 git clone 
+rename .env_copy to .env and set cofig for database in it  
 create database 'category'
 change in Database file in config folder 
 - default attribute 
     * username => set user name for database
     * password => set password for database
-- or rename .env_copy to .env and set cofig for database in it     
+- or change in config database in .env which rename from .env_copy   
 
 
 
 ## Setup
 in direct of project run  composer install
 - php spark migrate
-- php spark db:seed
+- php spark db:seed CategorySeeder
 - php spark serve
 - open http://127.0.0.1:8080/category
 - to go task click the button Task
