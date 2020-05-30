@@ -20,7 +20,7 @@ change in Database file in config folder
 
 
 ## Setup
-in direct of project run  composer install
+in direct of project run  composer install 'may be need to generate token for github to install codeigniter'
 - php spark migrate
 - php spark db:seed CategorySeeder
 - php spark serve
